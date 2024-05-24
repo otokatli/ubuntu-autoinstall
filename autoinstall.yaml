@@ -1,7 +1,7 @@
 autoinstall:
   version: 1
   identity:
-    hostname: H0371
+    hostname: anavarza
     username: otokatli
     password: "$6$bKafPd.wvI0AcZDU$kdTrRyCtvBh1q3W7CTCdMlLaLSbeLs.dK6eV.9lSU5H.B.Fk13G6pmxRJ1CbJSBihoNvUpIY7MyvTHvSTtrYR/"
   storage:
@@ -19,6 +19,7 @@ autoinstall:
     - wget
     - scdaemon
     - pcscd
+    - cmake
   snaps:
     - name: code
       classic: true
