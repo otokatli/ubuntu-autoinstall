@@ -20,6 +20,7 @@ autoinstall:
     - scdaemon
     - pcscd
     - cmake
+    - curl
   snaps:
     - name: code
       classic: true
