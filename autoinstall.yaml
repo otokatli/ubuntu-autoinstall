@@ -21,6 +21,7 @@ autoinstall:
     - pcscd
     - cmake
     - curl
+    - texlive-full
   snaps:
     - name: code
       classic: true
