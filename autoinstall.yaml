@@ -22,6 +22,7 @@ autoinstall:
     - cmake
     - curl
     - texlive-full
+    - keepassxc
   snaps:
     - name: code
       classic: true
