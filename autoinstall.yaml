@@ -23,6 +23,7 @@ autoinstall:
     - curl
     - texlive-full
     - keepassxc
+    - bat
   snaps:
     - name: code
       classic: true
