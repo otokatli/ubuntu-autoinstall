@@ -24,9 +24,16 @@ autoinstall:
     - texlive-full
     - keepassxc
     - bat
+    - stow
   snaps:
     - name: code
       classic: true
+    - name: chromium
+    - name: freecad
+    - name: nvim
+      classic: true
+    - name: steam
+    - name: octave
   late-commands:
     - curtin in-target -- apt update
     - curtin in-target -- apt upgrade
