@@ -22,16 +22,11 @@ autoinstall:
     - cmake
     - curl
     - texlive-full
-    - keepassxc
-    - bat
     - stow
   snaps:
     - name: code
       classic: true
-    - name: chromium
     - name: freecad
-    - name: nvim
-      classic: true
     - name: steam
     - name: octave
   late-commands:
