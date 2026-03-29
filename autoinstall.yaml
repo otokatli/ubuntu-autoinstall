@@ -28,6 +28,8 @@ autoinstall:
   snaps:
     - name: code
       classic: true
+    - name: nvim
+      classic: true
   late-commands:
     - curtin in-target -- apt update
     - curtin in-target -- apt upgrade
