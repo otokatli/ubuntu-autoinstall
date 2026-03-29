@@ -9,6 +9,7 @@ autoinstall:
       name: lvm
   packages:
     - build-essential
+    - docker.io
     - docker-buildx
     - docker-compose-v2
     - pass
