@@ -1,7 +1,7 @@
 autoinstall:
   version: 1
   identity:
-    hostname: H0402
+    hostname: anavarza
     username: otokatli
     password: "$6$bKafPd.wvI0AcZDU$kdTrRyCtvBh1q3W7CTCdMlLaLSbeLs.dK6eV.9lSU5H.B.Fk13G6pmxRJ1CbJSBihoNvUpIY7MyvTHvSTtrYR/"
   storage:
@@ -15,7 +15,7 @@ autoinstall:
     - gnupg2
     - gpg-agent
     - python3-pip
-    - vim-gtk3
+    - python3-venv
     - wget
     - scdaemon
     - pcscd
@@ -23,12 +23,10 @@ autoinstall:
     - curl
     - texlive-full
     - stow
+    - libfuse2t64
   snaps:
     - name: code
       classic: true
-    - name: freecad
-    - name: steam
-    - name: octave
   late-commands:
     - curtin in-target -- apt update
     - curtin in-target -- apt upgrade
